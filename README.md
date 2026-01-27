@@ -18,8 +18,7 @@ ubuntu >= 24.04
 ### Installation
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/NaingHtetHtun/server-setup/main/install.sh)
-```
+bash <(curl -s https://raw.githubusercontent.com/NaingHtetHtun/Laravel-project-setup/main/install.sh)```
 
 #### Update root password
 
