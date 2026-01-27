@@ -30,13 +30,6 @@ sudo mysql
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
 
-#### Laravel folder permission
-
-```bash
-sudo chgrp -R www-data storage bootstrap/cache
-sudo chmod -R ug+rwx storage bootstrap/cache
-```
-
 #### OPCache To handle requirements and boost performance, update /etc/php/8.4/fpm/php.ini:
 
 ```txt
