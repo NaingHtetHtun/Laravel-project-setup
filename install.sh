@@ -9,13 +9,10 @@ apt -y install ca-certificates curl gnupg zip unzip
 
 apt -y install nginx
 
-apt -y install software-properties-common
 add-apt-repository -y ppa:ondrej/php
-apt -y install php8.3-fpm
-apt -y install \
-php8.3-common php8.3-bcmath php8.3-mbstring php8.3-mysql \
-php8.3-xml php8.3-zip php8.3-curl php8.3-gd \
-php8.3-intl php-redis
+apt -y update
+apt -y install php8.3-fpm php8.3-common php8.3-bcmath php8.3-mbstring php8.3-mysql \
+php8.3-xml php8.3-zip php8.3-curl php8.3-gd php8.3-intl php8.3-redis php8.3-dom
 
 cd ~
 curl -sS https://getcomposer.org/installer -o composer-setup.php
